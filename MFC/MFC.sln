@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC", "MFC\MFC.vcproj", "{C9823E4F-3A52-43D4-93BB-5E8981E41A2A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testViewOcx", "testViewOcx\testViewOcx.vcproj", "{6564B6DB-EEFC-4DD3-9E59-32B0CC60220C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{C9823E4F-3A52-43D4-93BB-5E8981E41A2A}.Debug|Win32.Build.0 = Debug|Win32
 		{C9823E4F-3A52-43D4-93BB-5E8981E41A2A}.Release|Win32.ActiveCfg = Release|Win32
 		{C9823E4F-3A52-43D4-93BB-5E8981E41A2A}.Release|Win32.Build.0 = Release|Win32
+		{6564B6DB-EEFC-4DD3-9E59-32B0CC60220C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6564B6DB-EEFC-4DD3-9E59-32B0CC60220C}.Debug|Win32.Build.0 = Debug|Win32
+		{6564B6DB-EEFC-4DD3-9E59-32B0CC60220C}.Release|Win32.ActiveCfg = Release|Win32
+		{6564B6DB-EEFC-4DD3-9E59-32B0CC60220C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

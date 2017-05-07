@@ -1,0 +1,52 @@
+// testViewOcx.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (testViewOcx.tlb) that will become a resource in
+// testViewOcx.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(FEF2346F-B6B1-494B-99ED-B47C19006FEB), version(1.0),
+  helpfile("testViewOcx.hlp"),
+  helpstring("testViewOcx ActiveX Control module"),
+  control ]
+library testViewOcxLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Primary dispatch interface for CtestViewOcxCtrl
+
+	[ uuid(CC92D444-EB41-4207-8BAD-67D1BBC4A92D),
+	  helpstring("Dispatch interface for testViewOcx Control")]
+	dispinterface _DtestViewOcx
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CtestViewOcxCtrl
+
+	[ uuid(4EE4DF87-1D45-4CA9-AAE1-1DBF3CEAD24B),
+	  helpstring("Event interface for testViewOcx Control") ]
+	dispinterface _DtestViewOcxEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+	};
+
+	//  Class information for CtestViewOcxCtrl
+
+	[ uuid(7D16D513-D372-4918-8073-B7A758515742),
+	  helpstring("testViewOcx Control"), control ]
+	coclass testViewOcx
+	{
+		[default] dispinterface _DtestViewOcx;
+		[default, source] dispinterface _DtestViewOcxEvents;
+	};
+
+};

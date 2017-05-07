@@ -9,3 +9,7 @@
 
 /MFC/MFC/Debug
 /MFC/MFC/MFC.vcproj.HIK.shikai7.user
+/MFC/MFC/*.user
+/MFC/Debug/*.exp
+/MFC/Debug/*.ilk
+/MFC/testViewOcx/*.user

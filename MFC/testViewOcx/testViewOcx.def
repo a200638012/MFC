@@ -1,0 +1,9 @@
+; testViewOcx.def : Declares the module parameters.
+
+LIBRARY      "testViewOcx.OCX"
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE
