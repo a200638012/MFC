@@ -1,0 +1,1 @@
+VC++窗口关闭全过程：http://blog.csdn.net/whlong4221/article/details/7296836
